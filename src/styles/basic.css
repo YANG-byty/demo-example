@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Helvetica Neue', STHeiti, 'Microsoft Yahei', Tahoma, Simsun,
+    sans-serif;
+  color: #333;
+}
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+i,
+em {
+  font-style: normal;
+}
+img {
+  line-height: normal;
+}
+
+input[type='button'] {
+  -webkit-appearance: none;
+  outline: none;
+}
+
+button {
+  border: none 0;
+  cursor: pointer;
+  background: transparent;
+}
+
+input,
+textarea {
+  outline: none;
+  font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+textarea,
+input[type='textarea'] {
+  resize: none;
+}
+
+:focus {
+  outline: none;
+}
+
+/*清除浮动*/
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+::-webkit-input-placeholder {
+  color: #a2b0c4;
+} /* 使用webkit内核的浏览器 */
+:-moz-placeholder {
+  color: #a2b0c4;
+} /* Firefox版本4-18 */
+::-moz-placeholder {
+  color: #a2b0c4;
+} /* Firefox版本19+ */
+:-ms-input-placeholder {
+  color: #a2b0c4;
+}
+.ivu-select-selection .ivu-select-placeholder {
+  color: #a2b0c4;
+}
+/*滚动条*/
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background-color: #002582;
+}
+::-webkit-scrollbar-thumb {
+  background: #0075ff;
+  border-radius: 4px;
+}
